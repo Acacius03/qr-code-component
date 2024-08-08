@@ -1,0 +1,54 @@
+@import url('./utility.css');
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	border: none;
+	margin: 0;
+}
+
+body {
+	font-family: var(--font-family-primary);
+	background-color: var(--slate-300);
+	display: flex;
+	flex-direction: column;
+	height: 100dvh;
+	overflow-x: hidden;
+}
+
+main {
+	margin: auto;
+}
+
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
+p,
+h1 {
+	margin-block: 0.5rem; /* 8px */
+}
+
+.attribution {
+	font-size: 0.75rem; /* 12px */
+	text-align: center;
+	padding: 1.5rem 1rem;
+	background-color: var(--white);
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+.card {
+	padding: 1rem;
+	border-radius: 1.25rem; /* 20px */
+	max-width: 20rem;
+	margin: auto;
+}
+.card figcaption {
+	margin-block: 1.5rem;
+	padding-inline: 1rem;
+}
+.card img {
+	border-radius: 0.625rem; /* 10px */
+}
